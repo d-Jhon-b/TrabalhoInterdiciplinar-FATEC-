@@ -1,1 +1,0 @@
-# TrabalhoInterdiciplinar-FATEC-

@@ -1,0 +1,30 @@
+/*HEADER*/
+header{
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.nav-bar{
+    width: 100vw;
+    height: 10vh;
+    background-color: black
+}
+/*ICONE*/
+.ICONE{
+    position: absolute;
+    background-color: white;
+    height: 8vh;
+    width: 8vh;
+    display: none;
+}
+.empresa_nome{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+.empresa_nome>h1{  
+    text-align: center;
+    color: white;
+}

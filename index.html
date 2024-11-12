@@ -3,124 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de atv interdiciplinar</title>
-    <link rel="stylesheet" href="scr/cssGeral/StyleGeral.css">
-    <!-- para header component -->
-    <link rel="stylesheet" href="scr/componets/header/header.css">
-    <!-- home css -->
-    <link rel="stylesheet" href="scr/componets/home/home.css">
+    <title>interdiciplinar</title>
+    <link rel="stylesheet" href="src/cssGeral.css">
+    <link rel="stylesheet" href="src/componentes/header/header.css">
+    <link rel="stylesheet" href="src/componentes/Home/Home.css">
 </head>
 <body>
-    <!-- para header component -->
     <header>
-        <section class="header_superior">
-            <div class="icone">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-            <div class="titulo_header">
-                <h1>HOME DA EMPRESA</h1>
-            </div>
-        </section>
+        <div class="ICONE"></div>
+        <nav class="nav-bar">
+            <div class="empresa_nome"><h1>NOME DA EMPRESA</h1></div>
+        </nav>
     </header>
     <main>
-        <section class="first_section b-transparent">
-            <article class="content_img_intro">
-                <div class="text_intro">
-                    <h2 id="texto_da_img">
-                        "Lorem ipsum dolor sit amet <br>
-                        consectetur adipisicing elit."    
-                    </h2>
-                </div>
-                <div class="img_intro">
-                    <img src="https://img.freepik.com/fotos-premium/salchipapa-tipico-da-america-latina-salsichas-com-batatas-fritas-ketchup-mostarda-e-maionese-na-mesa-de-madeira_123827-3742.jpg" alt="Imagem de ilustração">
-                </div>
-            </article>
-            <article class="first_content b_white">
-                <h1 class="title">TÍTULO</h1>
-                <div class="title_intro_section b-white">
-                    <div class="text_container">
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
-                            Temporibus eaque eligendi molestiae tenetur placeat numquam dolorum quam molestias, harum delectus!
-                        </p>
-                    </div>  
-                    <div class="img_container">
-                        <img src="https://palavradodia.com/wp-content/uploads/2013/09/qualquer-ou-quaisquer-jpg.png" alt="img_ex">
+        <section class="tela_um tela">
+            <article class="content_video content_img">
+                <div class="video_c img_c">
+                    <!-- <img id="img_ratoRoi" src="src/componentes/imgs/ratoRoi.png" alt="RatoRoi"> -->
+                    <!-- <iframe id="video" src="https://www.youtube.com/embed/YZzSlg3i6Io?si=uPkcchqRlKL1la3f&controls=0" title="RatoRoi_Introduction" frameborder="0" allow="accelerometer;  autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share " referrerpolicy="strict-origin-when-cross-origin"  allowfullscreen></iframe> -->                
+                    <div class="text_video_content text_img_content">
+                        <h6 class="text_titulo">Foto ou vídeo</h6>
+                        <h6>"frassse e destaque da empresa"</h6>
                     </div>
                 </div>
             </article>
-            <article class="first_content b-white">
-                <h1 class="title">TÍTULO</h1>
-                <div class="title_intro_section b-white">
-                    <div class="text_container">
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
-                            Temporibus eaque eligendi molestiae tenetur placeat numquam dolorum quam molestias, harum delectus!
-                        </p>
+
+            <article class="content_info">
+                <div class="bloco bloco_um">
+                    <h1 class="titulo_home_page_tipo1">TITULO</h1>
+                    <div class="containte_slide" id="containte_slide">
+            
+                        <div class="text_slide_content text_slide_um">
+                            <div class="text_um">
+                                <p class="conteudo_um">tesuidbadiubdasdbnasioda</p>
+                            </div>
+                            <div class="img_slide_content img_slide_um"onclick="slide_um()" id="slide_um">
+                                <!-- <img src="src/componentes/imgs/nahida 1.png" alt="img_exemplo" class="img_slide" id="img_slide" > -->
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="img_container">
-                        <img src="https://palavradodia.com/wp-content/uploads/2013/09/qualquer-ou-quaisquer-jpg.png" alt="img_ex">
+                </div>                    
+                <div class="bloco bloco_dois">
+                    <h1 class="titulo_home_page_tipo1">TITULO</h1>
+                    <div class="containte_slide">
+                        
+                        <div class="text_slide_content text_slide_dois">
+                            <div class="text_dois">
+                                <p class="conteudo_dois">tesuidbadiubdasdbnasioda</p>
+                            </div>
+                            <div class="img_slide_content img_slide_dois"onclick="slide_dois()" id="slide_dois">
+                                <!-- <img src="src/componentes/imgs/nahida 1.png" alt="img_exemplo" class="img_slide" id="img_slide" > -->
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </article>
         </section>
-            <!-- segunda tela -->
-             <br>
+        
+        
     </main>
     <main>
-        <section class="second_section b-transparent">
-            <h1>TITULO</h1>         
-            <article class="primeiraParte">
-                <div class="text_content">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                        
-                    </p>
-                </div>
-                <div class="imgs_content">
-                    <img src="" alt="" class="img1">
-                     <img src="" alt="" class="img2">
-                    <img src="" alt="" class="img3">
-                    <img src="" alt="" class="img4">
-                </div>
-            </article>
-            <article class="segundaParte">
-                <h1 class="titulo">TITULO</h1>
-                <div class="carrosel_img">
-                    <div class="s_imgs_content">
-                        <img src="" alt="" class="img">
-                        <img src="" alt="" class="img">
-                        <img src="" alt="" class="img">
-                        <img src="" alt="" class="img">
+        <section class="tela_dois tela">
+            <h1 class="titulo_home_page_tipo2">TITULO</h1>
+            <article class="Tdois_container_um">
+                <div class="container_um_esquerda">
+                    <div class="texto_container_esquerda">
+                        <p>texto muito foda slc texto mucho loco do jhon, não leia as coisas à seguir please.
+                            nunca deixe de comer peras, Nahida mi vieja XDXD
+                        </p>
                     </div>
-                    <h3 class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                </div>
+                <div class="container_um_direita">
+                    <div class="parte_um">
+                        <img src="src/componentes/imgs/furina.jfif" alt="" class="img_mural furina"><!--trocar nomes depois Alan-->
+                        <img src="src/componentes/imgs/nahida_teste.jpeg" alt="" class="img_mural nahida"><!--trocar nomes depois Alan-->
+                    </div>
+                    <div class="parte_dois">
+                        <img src="src/componentes/imgs/raiden.gif" alt="" class="img_mural raiden"><!--trocar nomes depois Alan-->
+                        <img src="src/componentes/imgs/venti.webp" alt="" class="img_mural venti"><!--trocar nomes depois Alan-->
+                    </div>
                 </div>
             </article>
-        </section>    </main>
-   
-
-    <!-- <footer>
-        <section class="footer">
-            <div class="titulo_footer">
-                <h1 class="titulo_footer">TITULO</h1>
-            </div>
-            <div class="content_footer">
-                <article>
-                    <div><img src="" alt=""><a href=""></a></div>
-                    <div><img src="" alt=""><a href=""></a></div>
-                    <div><img src="" alt=""><a href=""></a></div>
-                    <div><img src="" alt=""><a href=""></a></div>
-                    <div><img src="" alt=""><a href=""></a></div>
-                </article>
-            </div>
-            <div class="description_footer">
-                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
-            </div>
+            <article class="Tdois_container_dois">
+                <h1 class="titulo_home_page_tipo2">TITULO</h1>
+                <div class="container_carrossel_options">
+                    <img src="" alt="" class="carrossel_container img_1">
+                    <img src="" alt="" class="carrossel_container img_2">
+                    <img src="" alt="" class="carrossel_container img_3">
+                    <img src="" alt="" class="carrossel_container img_4">
+                </div>
+            </article>
         </section>
-    </footer> -->
+    </main>
+    <main>
+        <section class="tela_tres tela">
+
+        </section>
+    </main>
+
+
+    
+    <button id="myButton">Texto Inicial</button>
+
+    <script src="src/componentes/Home/Home.js"></script>
+    <script src="src/componentes/index.js"></script>
 </body>
 </html>
