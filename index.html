@@ -9,16 +9,23 @@
     <link rel="stylesheet" href="src/componentes/Home/Home.css">
     <link rel="stylesheet" href="src/componentes/Home/primeiraTela/PrimeiraTela.css">
     <link rel="stylesheet" href="src/componentes/Home/segundaTela/SegundaTela.css">
+    <link rel="stylesheet" href="src/componentes/Home/TerceiraTela/TerceiraTela.css">
 </head>
 <body>
     <header>
         <nav class="nav-bar_mobile">     
-            <div class="list_content_mobile">
-                <!-- <a href="/">Materiais</a>
+            <div class="list_content_mobile" id="list_content_mobile">
+                <div class="icone_fechar" id="close">
+                    <div class="line1 line"></div>
+                    <div class="line2 line"></div>
+                </div>
+                <div class="list_content">
+                <a href="/">Materiais</a>
                 <a href="/">Produtos</a>
                 <a href="/">Produção</a>
                 <a href="/">Produção</a>
-                <a href="/">Seja um Associado</a> -->
+                <a href="/">Seja um Associado</a>
+                </div>
             </div>
         </nav>
         <div class="empresa_nome_mobile">
@@ -26,20 +33,13 @@
                 <img src="./src/componentes/header/img/titulo.png" alt="">
             </a>
         </div>
-        <div class="icone">
+        <div class="icone" id="open">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
-        </div> 
-        <div class="icone_fechar">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div> 
+        </div>  
         <nav class="nav-bar">
             <div class="lista-navigation">
                 <ul>
@@ -100,9 +100,7 @@
                 </div>
             </article>
         </section>
-    </main>
 
-    <main>
         <section class="tela_um tela">
             <article class="content_video content_img">
                 <div class="video_c img_c">
@@ -144,9 +142,8 @@
                 </div>
             </article>
         </section> 
-    </main>
-    <main>
-        <section class="tela_dois tela">
+
+    <section class="tela_dois tela">
             <h1 class="titulo_home_page_tipo2">TITULO</h1>
             <article class="Tdois_container_um">
                 <div class="container_um_esquerda">
@@ -176,7 +173,6 @@
                     <input type="radio" name="radio-btn" id="radio3">
                     <input type="radio" name="radio-btn" id="radio4">
                 
-                
                     <div class="slide first">
                         <img src="src/componentes/imgs/furina.jfif" alt="" class="img_1 img">
                     </div>
@@ -195,18 +191,18 @@
                         <div class="auto-btn3"></div>
                         <div class="auto-btn4"></div>
                     </div>
-
-                </div>
-                <div class="manual-navigation">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                    <label for="radio4" class="manual-btn"></label>
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn last_btn_manual"></label>
+                    </div>
                 </div>
             </article>
+        </section> 
+        <section class="tela_tres tela">
 
-
-        </section>
+        </section>  
     </main>
     <!-- <main>
         <section class="tela_tres tela">
@@ -217,5 +213,6 @@
     <script src="src/componentes/Home/segundaTela/SegundaTela.js"></script>
     <script src="src/componentes/Home/PrimeiraTela.js"></script>
     <script src="src/componentes/index.js"></script>
+    <script src="src/componentes/header/header.js"></script>
 </body>
 </html>
