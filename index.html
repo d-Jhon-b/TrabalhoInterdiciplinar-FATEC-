@@ -7,32 +7,115 @@
     <link rel="stylesheet" href="src/cssGeral.css">
     <link rel="stylesheet" href="src/componentes/header/header.css">
     <link rel="stylesheet" href="src/componentes/Home/Home.css">
+    <link rel="stylesheet" href="src/componentes/Home/primeiraTela/PrimeiraTela.css">
+    <link rel="stylesheet" href="src/componentes/Home/segundaTela/SegundaTela.css">
 </head>
 <body>
     <header>
-        <div class="ICONE"></div>
+        <nav class="nav-bar_mobile">     
+            <div class="list_content_mobile">
+                <!-- <a href="/">Materiais</a>
+                <a href="/">Produtos</a>
+                <a href="/">Produção</a>
+                <a href="/">Produção</a>
+                <a href="/">Seja um Associado</a> -->
+            </div>
+        </nav>
+        <div class="empresa_nome_mobile">
+            <a href="/">
+                <img src="./src/componentes/header/img/titulo.png" alt="">
+            </a>
+        </div>
+        <div class="icone">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div> 
+        <div class="icone_fechar">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div> 
         <nav class="nav-bar">
-            <div class="empresa_nome"><h1>NOME DA EMPRESA</h1></div>
+            <div class="lista-navigation">
+                <ul>
+                    <div class="esquerda-header">
+                        <li><a href="/">Materiais</a></li>
+                        <li><a href="/">Produtos</a></li>
+                    </div>
+                    <div class="empresa_nome">
+                        <a href="/">
+                            <img src="./src/componentes/header/img/titulo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="direita-header">
+                        <li><a href="/">Produção</a></li>
+                        <li><a href="/">Produção</a></li>
+                        <li><a href="/">Seja um Associado</a></li>
+                    </div>
+                </ul>
+            </div>
         </nav>
     </header>
+    <main>
+        <section class="tela_um_desktop">
+            <article class="content_video content_img">
+                <div class="video_c img_c">
+                    <img src="src/componentes/Home/primeiraTela/img/fundo.png" alt="">
+                    <div class="text_img_content_desktop">
+                        <h6 class="text_titulo_desktop">TRANSFORMAMOS RESÍDUOS</h6>
+                        <h6>EM REVOLUÇÃO</h6>
+                    </div>
+                </div>
+            </article>
+            <article class="container_info_desktop">
+                <h1>MATERIAIS</h1>
+                <div class="content_info_desktop">
+                    <div class="esquerda_info_desktop">
+                        <h2>BOX DE AMOSTRAS BYEPLASTIC REVESTIMENTOS</h2>
+                        <div class="text_info_desktop">
+                            <p>
+                                No Box você recebe 5 peças com estéticas diferentes para conhecer melhor nossos painéis 100% reciclados, com as espessuras 4 e 6mm.<br>
+                                Perfeito para uso em revestimentos, tampos de mesa, balcões, nichos entre outros produtos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="direita_info_desktop">
+                        <div class="info_desktop_img1">
+                            <img src="" alt="">
+                        </div>
+                        <div class="info_desktop_img2"></div>
+                    </div>
+                </div>
+                <div class="pontos">
+                    <div class="ponto"></div>
+                    <div class="ponto"></div>
+                    <div class="ponto"></div>
+                    <div class="ponto"></div>
+                    <div class="ponto"></div>
+                </div>
+            </article>
+        </section>
+    </main>
+
     <main>
         <section class="tela_um tela">
             <article class="content_video content_img">
                 <div class="video_c img_c">
-                    <!-- <img id="img_ratoRoi" src="src/componentes/imgs/ratoRoi.png" alt="RatoRoi"> -->
-                    <!-- <iframe id="video" src="https://www.youtube.com/embed/YZzSlg3i6Io?si=uPkcchqRlKL1la3f&controls=0" title="RatoRoi_Introduction" frameborder="0" allow="accelerometer;  autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share " referrerpolicy="strict-origin-when-cross-origin"  allowfullscreen></iframe> -->                
                     <div class="text_video_content text_img_content">
-                        <h6 class="text_titulo">Foto ou vídeo</h6>
-                        <h6>"frassse e destaque da empresa"</h6>
+                        <h6 class="text_titulo">TRANSFORMAMOS RESÍDUOS</h6>
+                        <h6>EM REVOLUÇÃO</h6>
                     </div>
                 </div>
             </article>
-
             <article class="content_info">
                 <div class="bloco bloco_um">
                     <h1 class="titulo_home_page_tipo1">TITULO</h1>
                     <div class="containte_slide" id="containte_slide">
-            
                         <div class="text_slide_content text_slide_um">
                             <div class="text_um">
                                 <p class="conteudo_um">tesuidbadiubdasdbnasioda</p>
@@ -60,9 +143,7 @@
                     </div>
                 </div>
             </article>
-        </section>
-        
-        
+        </section> 
     </main>
     <main>
         <section class="tela_dois tela">
@@ -86,28 +167,55 @@
                     </div>
                 </div>
             </article>
+
             <article class="Tdois_container_dois">
-                <h1 class="titulo_home_page_tipo2">TITULO</h1>
-                <div class="container_carrossel_options">
-                    <img src="" alt="" class="carrossel_container img_1">
-                    <img src="" alt="" class="carrossel_container img_2">
-                    <img src="" alt="" class="carrossel_container img_3">
-                    <img src="" alt="" class="carrossel_container img_4">
+                <!-- <h1 class="titulo_home_page_tipo2">TITULO</h1> -->
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                
+                
+                    <div class="slide first">
+                        <img src="src/componentes/imgs/furina.jfif" alt="" class="img_1 img">
+                    </div>
+                    <div class="slide second">
+                        <img src="src/componentes/imgs/nahida_teste.jpeg" alt="" class="img_2 img">
+                    </div>
+                    <div class="slide">
+                        <img src="src/componentes/imgs/raiden.gif" alt="" class="img_3 img">
+                    </div>
+                    <div class="slide">
+                        <img src="src/componentes/imgs/venti.webp" alt="" class="img_4 img">
+                    </div>
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+
+                </div>
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
                 </div>
             </article>
+
+
         </section>
     </main>
-    <main>
+    <!-- <main>
         <section class="tela_tres tela">
 
         </section>
-    </main>
+    </main> -->
 
-
-    
-    <button id="myButton">Texto Inicial</button>
-
-    <script src="src/componentes/Home/Home.js"></script>
+    <script src="src/componentes/Home/segundaTela/SegundaTela.js"></script>
+    <script src="src/componentes/Home/PrimeiraTela.js"></script>
     <script src="src/componentes/index.js"></script>
 </body>
 </html>

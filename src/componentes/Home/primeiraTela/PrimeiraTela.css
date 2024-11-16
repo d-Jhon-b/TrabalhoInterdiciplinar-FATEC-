@@ -1,0 +1,233 @@
+.tela_um{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.content_img{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+}
+.img_c{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.2);
+    /* background-image: url("./img/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.img_c>img{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 80vh;
+}
+.text_img_content_desktop{
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+    text-align: center;
+    align-content: center;
+}
+.text_img_content_desktop h6{
+    font-size: 4rem;
+    color: white;
+}
+.container_info_desktop{
+    display: block;
+    width: 100%;
+    height: 80vh;
+    border: 10px solid red;
+    text-align: center;
+}
+.container_info_desktop>h1{height: 10%; font-size: 4rem;color: #63022d;}
+.content_info_desktop{width: 100%;height: 80%; display: flex;}
+.esquerda_info_desktop{width: 60%;height: 100%;
+border: 2px solid black;
+text-align: start;
+display: block;
+align-content: center;
+padding: 0 25px 0 25px;
+}
+.esquerda_info_desktop .text_info_desktop{
+    height: auto;
+    padding-bottom: 30px;
+}
+.esquerda_info_desktop h2{font-size: 2rem; font-weight: 500; margin: 10px 0;}
+.text_info_desktop p{font-size: 2rem; font-weight: 300;}
+
+.direita_info_desktop{width: 40%;height: 100%;
+border: 2px solid black;
+}
+
+
+
+.pontos{width: 100%; height: 5%;
+border: 2px solid red;
+display: flex;
+justify-content: center;
+gap: 5%;
+}
+.ponto{
+    background-color: #fd64a8;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+.tela_um{
+display: none;
+}
+.tela_dois{
+    display: none;
+}
+.tela_tres{
+    display: none;
+}
+.text_video_content{
+    display: none;
+}
+.content_info{
+    display: none;
+}
+
+
+@media screen and (max-width:768px){
+   /*tela 1*/ 
+.tela_um_desktop{display: none;}
+.tela_um{
+    display: block;
+}
+.tela_dois{
+    display: block;
+}
+.tela_tres{
+    display: block;
+}
+.content_info_desktop{display: none;}
+.text_img_content_desktop{
+    display: none;
+}
+.content_img{
+    width: 100%;
+    height: 40%;
+    background-image: url("./img/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img_ratoRoi{
+    width: 100%;
+    height: 100%;
+}
+.text_img_content{
+    display: block;
+    width: 70%;
+    height: 80%;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(0, 0, 0,0.3);
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+}
+.text_img_content>.text_titulo{font-size: 2rem;}
+.text_img_content>h6{text-align: center; font-size: 1.5rem;font-weight: 400;}
+
+/* segunda parte da tela 1 */
+.content_info{
+    display: block;
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+.content_info>.bloco{
+    margin: 5px;
+    width: 100%;
+    height: 40%;
+}
+.bloco{
+    /* border: 3px solid red; */
+    justify-items:center;
+}
+.containte_slide{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* border: 3px solid rgb(0, 0, 0); */
+    border-radius: 30px;
+    width: 90%;
+    height: 60%;
+}
+.text_slide_content{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    z-index: 0;
+}
+.text_um{
+    width: 90%;
+    height: 100%;
+    left: 4.5%;
+    position: absolute;
+    word-break: break-all; 
+    /* border: 3px solid black; */
+    display: flex;
+}.conteudo_um{width: 50%; text-align: start;}
+.text_dois{
+    width: 90%;
+    height: 100%;
+    left: 4.5%;
+    position: absolute;
+    word-break: break-all; 
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: end;
+}.conteudo_dois{width: 50%;text-align: end;}
+.img_slide_content{
+    display: flex;
+    width: 85px;
+    height: 85px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 30%;
+    transition: transform 0.5s ease-in-out; /* Adiciona a transição */
+}
+.img_slide_um{
+    position: relative;
+    left: 75%;
+    bottom: 5px;
+    z-index: 2;
+    transition: transform 0.5s ease-in-out; /* Adiciona a transição */
+}
+.img_slide_dois{
+    position: relative;
+    left: 0%;
+    bottom: 5px;
+    z-index: 2;
+    transition: transform 0.5s ease-in-out; /* Adiciona a transição */
+}
+.movimento{
+    left:0%;transition: 1s;
+}
+.movimentoSaida{
+    left: 75%;transition: 1s;
+}
+.movimento_dois{
+    left:75%;transition: 1s;
+}
+.movimentoSaida_dois{
+    left: 0%;transition: 1s;
+}
+}
