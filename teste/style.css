@@ -36,3 +36,72 @@ main{
     background-color: blueviolet;
     border: 3px solid black;
 }
+
+.card{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    margin: 5px;
+    perspective: 800px;
+}
+.card:hover .flip{
+    transform: rotateY(180deg);
+}
+.card .flip{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    transition: transform 0.5s;
+    /* transform: 0.5s; */
+    transform-style: preserve-3d;
+
+}
+.front-card, .back-card{
+    position: absolute;
+    backface-visibility: hidden;
+    height: 200px;
+    width: 200px;
+}
+.front-card{
+    background-color: aquamarine;
+}
+.back-card{
+    background-color: bisque;
+    transform: rotateY(180deg);
+}
+.front-card div, .back-card div{
+    border-radius: 12px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/* .card{
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.card .card-side{
+    height: 400px;
+    width: 400px;
+}
+.front{
+    background-color: aqua;
+    position: absolute;
+}
+.back{
+    background-color: rgb(143, 41, 41);    
+    position: absolute;
+}
+.card:hover .card-side.front{
+    transform: rotateY(180deg);
+}
+.card:hover .card-side.back{
+    transform: rotateY(0deg);
+} */

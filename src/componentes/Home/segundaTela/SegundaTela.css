@@ -7,6 +7,9 @@
     text-align: center;
     /* border: 3px solid red; */
 }
+@media screen and (max-width:768px){
+    
+
 .Tdois_container_um{
     display: flex;
     width: 100%;
@@ -191,4 +194,5 @@
 }
 #radio4:checked ~.navigation-auto .auto-btn4{
     background-color: black;
+}
 }
