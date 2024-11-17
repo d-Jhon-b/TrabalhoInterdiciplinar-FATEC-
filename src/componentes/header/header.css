@@ -58,6 +58,17 @@ header{
 .nav-bar_mobile{
     display: none;
 }
+#nav-link{
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    height: 30px;
+    width: 150px;
+    padding: 5px 10px;
+    /* padding: 5px 15px; */
+}
+#nav-link:hover{color: rgb(235, 165, 14); background-color: black; transition: 0.5s;}
+
 .empresa_nome_mobile{display: none;}
 /*responsividade*/
 @media screen and (max-width:768px){

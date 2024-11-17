@@ -28,9 +28,9 @@ main{
     width: 100%;
     height: 100%;
     background-color: rgb(0, 0, 0,0.2);
-    /* background-image: url("./img/fundo.png");
+    background-image: url("./primeiraTela/img/fundo.png");
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,20 +55,20 @@ main{
 }
 .container_info_desktop{
     display: block;
-    width: 100%;
+    width: 100vw;
     height: 90vh;
     text-align: center;
     /* overflow: hidden; */
 }
 
 
-.titulo_desktop_tipo1{height: 10%; font-size: 4rem;color: #63022d; margin-bottom: 20px;}
+.titulo_desktop_tipo1{height: 10%; font-size: 4rem;color: #63022d; margin-top: 20px;}
 .content_info_desktop{
     width: 100%;height: 80%; display: flex;
     
 }
 .esquerda_info_desktop{width: 60%;height: 100%;
-text-align: start;
+text-align: center;
 display: block;
 align-content: center;
 padding: 0 25px 0 25px;
@@ -77,8 +77,9 @@ padding: 0 25px 0 25px;
     height: auto;
     padding-bottom: 30px;
 }
-.esquerda_info_desktop h2{font-size: 2rem; font-weight: 500; margin: 10px 0;}
-.text_info_desktop p{font-size: 2rem; font-weight: 300;}
+.esquerda_info_desktop h2{font-size: 2rem; font-weight: 500; 
+    margin: 10px 0;}
+.text_info_desktop p{font-size: 2rem; font-weight: 300;text-align: justify;}
 
 .direita_info_desktop{width: 40%;height: 100%;
 display: flex;
@@ -106,9 +107,10 @@ display: flex;
     backface-visibility: hidden;
     width: 90%;
     height: 100%;
+    border-radius: 15px;
 }
 .front-card{
-    background-color: transparent;
+    background:transparent;
 }
 .front-card img{
     border: 0.5px solid black;
@@ -117,6 +119,7 @@ display: flex;
     height: 100%;
     box-shadow: 30px -16px #fd64a8;
 }
+
 .back-card{
     background-color: transparent;
     transform: rotateY(180deg);
@@ -133,7 +136,7 @@ display: flex;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
 }
 
-
+/*futuro slides*/
 .pontos{width: 100%; height: 5%;
 margin-top: 15px;
 display: flex;
@@ -147,15 +150,218 @@ gap: 5%;
     border-radius: 50%;
 }
 
+/*pagina produtos*/
+.container_produto_desktop{
+    display: block;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+}
+.content_produto_desktop{
+    width: 100%;height: 80%; display: flex;
+}
+.esquerda_produto_desktop{width: 40%;height: 100%;
+display: flex;
+justify-content: center;
+}
+.esquerda_produto_desktop .text_produto_desktop{
+    height: auto;
+    padding-bottom: 30px;
+}
+.esquerda_produto_desktop h2{font-size: 2rem; font-weight: 500; margin: 10px 0;}
+.text_produto_desktop p{font-size: 2rem; font-weight: 300;}
+
+.direita_produto_desktop{width: 60%;height: 100%;
+    text-align: start;
+    display: block;
+    align-content: center;
+    padding: 0 25px 0 25px;}
+.direita_produto_desktop .produto_desktop_img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.container_production_desktop{
+    width: 100vw;
+    height: 90vh;
+    text-align: center;
+    display: block;
+    border: 3PX solid black;
+}
+.content_production_desktop{
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+.content_production_desktop .production_esquerda,.production_direita{
+    width: 50%;
+    height: auto;
+    margin: 10px;
+}
+.production_esquerda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.production_esquerda p{
+    padding: 0 60px;
+    font-size: 1.2rem;
+    /* text-align: initial; */
+    text-align: justify;
+    font-weight: 500;
+}
+
+.front-card-produto img{
+    border: 0.5px solid black;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    box-shadow: -30px -15px #008cff;
+    margin-left: 20px;
+}
+.back-card-produto img{
+    border: 0.5px solid black;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 30px -16px #fd64a8;
+}
+/*slides*/
+
+
+.container_data_desktop{
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    overflow: hidden;
+}
+.container_data_desktop h1{margin-bottom: 20px;}
+.slider_data{
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  overflow-x: hidden;
+}
+.slides-data{
+  width: 400%;
+  height: 100%;
+  display: flex;
+}
+.slides-data input{
+  display: none;
+}
+.slide_data{
+  width: 25%;
+  position: relative;
+  padding: 30px 0;
+}
+.slide_data img{
+  border-radius: 15px;
+  border: 1px solid black;
+  height: 70%;
+}
+.slide_data img:hover{
+  transform: scale(110%);
+  transition: 0.5s;
+}
+.slide_1 img{
+  width: 40%;
+}
+.slide_2 img{
+  width: 60%;
+}
+.slide_3 img{
+  width: 50%;
+}
+.slide_4 img{
+  width: 50%;
+}
+.manual-data-navigation{
+  position: absolute;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 430px;
+  display: flex;
+  justify-content: center;
+}
+.manual-data-btn{
+  border: 2px solid rgb(0, 0, 0);
+  padding: 5px;
+  border-radius:10px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.manual-data-btn:not(:last-child){
+  margin-right: 40px;
+}
+.manual-data-btn:hover{background-color: rgb(255, 255, 255); transform: scale(150%);}
+#radioData1:checked ~.data_first{
+  margin-left: 0;
+  transition: 1s;
+}
+#radioData2:checked~.data_first{
+  transition: 1s;
+  margin-left: -25%;
+}
+#radioData3:checked~.data_first{
+  transition: 1s;
+  margin-left: -50%;
+}
+#radioData4:checked~.data_first{
+  transition: 1s;
+  margin-left: -75%;
+}
+.navigation-auto-data{
+  position: absolute;
+  margin-top: 430px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.navigation-auto-data div{
+  border: 2px solid rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.navigation-auto-data div:not(:last-child){
+  margin-right: 40px;
+}
+#radioData1:checked ~.navigation-auto-data .auto-data-btn1{
+  background-color: rgb(0, 0, 0);
+}
+#radioData2:checked ~.navigation-auto-data .auto-data-btn2{
+  background-color: rgb(0, 0, 0);
+}
+#radioData3:checked ~.navigation-auto-data .auto-data-btn3{
+  background-color: rgb(0, 0, 0);
+}
+#radioData4:checked ~.navigation-auto-data .auto-data-btn4{
+  background-color: rgb(0, 0, 0);
+}
+
+
+.tela_um{
+    display: none;
+}
+.tela_dois{
+    display: none;
+}
+.tela_tres{
+    display: none;
+}
 @media screen and (max-width:768px){
-    .tela_um{
-        display: none;
+    .tela_desktop{display: none;}
+        .tela_um{
+            display: block;
         }
         .tela_dois{
-            display: none;
+            display: block;
         }
         .tela_tres{
-            display: none;
+            display: block;
         }
         .text_video_content{
             display: none;
