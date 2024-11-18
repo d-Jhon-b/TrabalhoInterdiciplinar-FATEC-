@@ -288,14 +288,17 @@ justify-content: center;
 .manual-data-btn{
   border: 2px solid rgb(0, 0, 0);
   padding: 5px;
-  border-radius:10px;
+  border-radius:15px;
   cursor: pointer;
   transition: 0.6s;
+
+  height: 10px;
+  width: 10px;
 }
 .manual-data-btn:not(:last-child){
   margin-right: 40px;
 }
-.manual-data-btn:hover{background-color: rgb(255, 255, 255); transform: scale(150%);}
+.manual-data-btn:hover{background-color: #fd64a8; transform: scale(150%);}
 #radioData1:checked ~.data_first{
   margin-left: 0;
   transition: 1s;
@@ -325,21 +328,23 @@ justify-content: center;
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
+  height: 10px;
+  width: 10px;
 }
 .navigation-auto-data div:not(:last-child){
   margin-right: 40px;
 }
 #radioData1:checked ~.navigation-auto-data .auto-data-btn1{
-  background-color: rgb(0, 0, 0);
+  background-color:#fd64a8;
 }
 #radioData2:checked ~.navigation-auto-data .auto-data-btn2{
-  background-color: rgb(0, 0, 0);
+  background-color:#fd64a8;
 }
 #radioData3:checked ~.navigation-auto-data .auto-data-btn3{
-  background-color: rgb(0, 0, 0);
+  background-color:#fd64a8;
 }
 #radioData4:checked ~.navigation-auto-data .auto-data-btn4{
-  background-color: rgb(0, 0, 0);
+  background-color:#fd64a8;
 }
 
 
