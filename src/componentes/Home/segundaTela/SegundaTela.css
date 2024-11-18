@@ -120,19 +120,21 @@
     transition: 1s;
     z-index: -1;
 }
-.slide img{width: 100%;height: 90%; padding: 5px;}
+.slide img{width:75%;height: 80%; 
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
 /* .img_1{background-color: aquamarine;}
 .img_2{background-color: rgb(255, 0, 0);}
 .img_3{background-color: rgb(146, 146, 146);}
 .img_4{background-color: rgb(6, 24, 18);} */
 .manual-navigation{
     position: absolute;
-    width: 98%;
-    margin-top: 249px;
+    width: 100%;
+    margin-top: 75%;
     display: flex;
     justify-content: center;
-    background-color: transparent;
-    gap: 9px;
 }
 .manual-btn{
     border: 2px solid rgb(0, 0, 0);
@@ -140,13 +142,14 @@
     border-radius: 50%;
     cursor: pointer;
     transition: 1s;
+    z-index: 2;
 }
 .manual-btn:not(:last-child){
-    margin-right: 40px;
+    margin-right: 35px;
 }
-/* .manual-btn:hover{
+.manual-btn:hover{
     background-color: black;
-} */
+}
 #radio1:checked ~ .first{
     margin-left: 0;
     transition: 1s;
@@ -165,23 +168,21 @@
 }
 .navigation-auto div{
     border: 2px solid rgb(255, 255, 255);
-    padding: 8px;
+    padding:5px;
     border-radius: 50%;
     cursor: pointer;
     transition: 1s;
-    z-index: 2;
 }
 .navigation-auto{
-    gap: 2px;
     position: absolute;
     width: 100%;
-    margin-top: 249px;
+    margin-top: 75%;
     display: flex;
     justify-content: center;
-    gap: 2px;
 }
 .navigation-auto div:not(:last-child){
-    margin-right: 41px;
+    /* margin-right: 55px; */
+    margin-right: 35px;
 }
 #radio1:checked ~.navigation-auto .auto-btn1{
     background-color: black;
