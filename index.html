@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>interdiciplinar</title>
     <link rel="stylesheet" href="src/cssGeral.css">
+    <link rel="stylesheet" href="src/componentes/SejaCatador/SejaCatador.css">
     <link rel="stylesheet" href="src/componentes/header/header.css">
     <link rel="stylesheet" href="src/componentes/Home/Home.css">
     <link rel="stylesheet" href="src/componentes/Home/primeiraTela/PrimeiraTela.css">
@@ -14,7 +15,7 @@
 </head>
 <body>
     <header id="header">
-        <!-- <nav class="nav-bar_mobile">     
+        <nav class="nav-bar_mobile">     
             <div class="list_content_mobile" id="list_content_mobile">
                 <div class="icone_fechar" id="close">
                     <div class="line1 line"></div>
@@ -25,7 +26,7 @@
                 <a href="/">Produtos</a>
                 <a href="/">Produção</a>
                 <a href="/">Produção</a>
-                <a href="/">Seja um Associado</a>
+                <button id="SejaCatadorBTN_mobile">Seja um Associado</button>
                 </div>
             </div>
         </nav>
@@ -56,13 +57,13 @@
                     <div class="direita-header">
                         <li><a href="/">Produção</a></li>
                         <li><a href="/">Produção</a></li>
-                        <li><a id="nav-link" href="/">Seja um Associado</a></li>
+                        <li><button id="SejaCatadorBTN_desktop">Seja um Associado</button></li>
                     </div>
                 </ul>
             </div>
-        </nav> -->
+        </nav>
     </header>
-    <main>
+    <main id="main">
         <section class="tela_desktop">
             <article class="content_video content_img">
                 <div class="video_c img_c">
@@ -332,6 +333,7 @@
         </div>
     </footer>
     <script src="src/componentes/Home/Home.js" defer></script>
+    <script src="src/componentes/SejaCatador/SejaCatador.js"></script>
     <script src="src/componentes/Home/primeiraTela/PrimeiraTela.js" defer></script>
     <!-- <script src="src/componentes/Home/segundaTela/SegundaTela.js" defer></script> -->
     <script src="src/componentes/index.js"></script>

@@ -20,3 +20,4 @@ function nextImg(){
     }
     document.getElementById('radio'+countmobile).checked=true
 }
+

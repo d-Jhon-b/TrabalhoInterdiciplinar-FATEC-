@@ -58,16 +58,18 @@ header{
 .nav-bar_mobile{
     display: none;
 }
-#nav-link{
+#SejaCatadorBTN_desktop{
     background-color: white;
     border-radius: 15px;
+    border: none;
     color: black;
     height: 30px;
     width: 150px;
     padding: 5px 10px;
+    cursor: pointer;    
     /* padding: 5px 15px; */
 }
-#nav-link:hover{color: rgb(235, 165, 14); background-color: black; transition: 0.5s;}
+#SejaCatadorBTN_desktop:hover{color: rgb(235, 165, 14); background-color: black; transition: 0.5s;}
 
 .empresa_nome_mobile{display: none;}
 /*responsividade*/
@@ -165,5 +167,14 @@ header{
     .empresa_nome_mobile a img{
         min-width: 160px;min-height: 8vh;
         width: 25%;height: 8vh;
+    }
+
+    #SejaCatadorBTN_mobile{
+        width: 100%;
+        height: 50px;
+        background-color: transparent;
+        color: white;
+        font-weight: 600;
+        border: 3px solid white;
     }
 }
