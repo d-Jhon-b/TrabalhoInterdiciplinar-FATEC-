@@ -91,8 +91,8 @@
     /* border: 3px solid black; */
     display: flex;
     justify-content: end;
+    
 }.conteudo_dois{width: 60%;text-align: end;}
-/*checkpoint*/
 .img_slide_content{
     display: flex;
     width: 85px;
@@ -104,7 +104,6 @@
 }
 .img_slide_um{
     /* background-image: ; */
-    box-shadow: -12px 12px 2px 1px #fc62a7;    
     position: relative;
     left: 75%;
     bottom: 5px;
@@ -118,7 +117,6 @@
     background-color: white;
 }
 .img_slide_dois{
-    box-shadow: 12px 12px 2px 1px #fc62a7;    
     position: relative;
     left: 0%;
     bottom: 5px;

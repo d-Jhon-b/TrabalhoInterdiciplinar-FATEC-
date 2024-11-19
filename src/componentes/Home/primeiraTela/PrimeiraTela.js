@@ -10,7 +10,7 @@ function slide_um(){
     if(verif){
         imgSlide_um.classList.add('movimento')
         imgSlide_um.classList.remove('movimentoSaida')
-        imgSlide_um.style = `box-shadow: -12px 12px 2px 1px #008cff;`
+        imgSlide_um.style = `box-shadow: 12px 12px 2px 1px #008cff;`
         text.textContent = ' '
         text_container_um.style = 'justify-content:end;'
         text.style = 'text-align:justify;'
@@ -35,6 +35,7 @@ function slide_dois(){
     if(verif){
         imgSlide_dois.classList.remove('movimentoSaida_dois')
         imgSlide_dois.classList.add('movimento_dois')
+        imgSlide_dois.style = "box-shadow: -12px 12px 2px 1px #008cff;"
         text_dois.textContent = ''
         text_container_dois.style = 'justify-content:start;'
         text_dois.style = 'text-align:start;'
@@ -45,6 +46,7 @@ function slide_dois(){
     else{
         imgSlide_dois.classList.remove('movimento_um')
         imgSlide_dois.classList.add('movimentoSaida_dois')
+        imgSlide_dois.style = 'box-shadow: 12px 12px 2px 1px #fd64a8;'
         text_dois.textContent = ''
         text_container_dois.style = 'justify-content:end;'
         text_dois.style = 'text-align:end;'
