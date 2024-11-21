@@ -7,7 +7,7 @@ header.innerHTML = `
                     <div class="line2 line"></div>
                 </div>
                 <div class="list_content">
-                <a href="/">Materiais</a>
+                <button id="materiais">Materiais</button>
                 <a href="/">Produtos</a>
                 <a href="/">Produção</a>
                 <a href="/">Produção</a>
@@ -17,7 +17,7 @@ header.innerHTML = `
         </nav>
         <div class="empresa_nome_mobile">
             <a href="./index.html">
-                <img src="./src/componentes/header/img/titulo.png" alt="">
+                <img src="/src/componentes/header/img/titulo.png" alt="">
             </a>
         </div>
         <div class="icone" id="open">
@@ -36,7 +36,7 @@ header.innerHTML = `
                     </div>
                     <div class="empresa_nome">
                         <a href="./index.html">
-                            <img src="./src/componentes/header/img/titulo.png" alt="">
+                            <img src="/src/componentes/header/img/titulo.png" alt="">
                         </a>
                     </div>
                     <div class="direita-header">
@@ -49,10 +49,9 @@ header.innerHTML = `
         </nav>
 `
 
-
-
-
-
+document.getElementById("materiais").addEventListener("click", function () {
+    window.location.href = "src/componentes/Materiais/materiais.html";
+});
 
 const openbtn = document.getElementById('open')
 const closebtn=document.getElementById('close')

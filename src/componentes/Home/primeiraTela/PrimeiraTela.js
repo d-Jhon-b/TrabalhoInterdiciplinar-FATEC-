@@ -27,7 +27,7 @@ function slide_um(){
         text.textContent = ''
         text_container_um.style = 'justify-content:start;'
         text.style = 'text-align:start; font-weight: 400;'
-        text.textContent = "BOX DE AMOSTRAS BYEPLASTIC REVESTIMENTOS";        
+        text.textContent = "BOX DE AMOSTRAS CORRUPIO STEM LOW AND HIGH";        
         verif = true        
     }    
 }

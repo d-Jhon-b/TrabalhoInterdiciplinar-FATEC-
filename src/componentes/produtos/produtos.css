@@ -1,0 +1,38 @@
+.titulo{
+    height: 10%; 
+    font-size: 4rem;
+    color: #63022d; 
+    margin-top: 20px;
+    text-align: center;
+}
+
+.produtoCatalogo h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.produtoCatalogo img{
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.produtoCatalogo p{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    color: #4f484c;
+}
+
+.line {
+    background-color: black;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
