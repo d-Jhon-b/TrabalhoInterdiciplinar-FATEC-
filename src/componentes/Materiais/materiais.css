@@ -16,9 +16,14 @@
     width: 450px;
     border-radius: 20px;
     align-content: center;
-    flex-direction: row;
     margin-left: 20px;
     margin-right: 30px;
+}
+
+.materialCatalogo div{
+    align-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .materialCatalogo p{
@@ -34,4 +39,8 @@
     height: 1px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.listaMateriais{
+    align-content: center;
 }
