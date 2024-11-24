@@ -10,13 +10,12 @@ header.innerHTML = `
                 <button id="materiais">Materiais</button>
                 <a href="/">Produtos</a>
                 <a href="/">Produção</a>
-                <a href="/">Produção</a>
                 <button id="SejaCatadorBTN_mobile">Seja um Associado</button>
                 </div>
             </div>
         </nav>
         <div class="empresa_nome_mobile">
-            <a href="./index.html">
+            <a href="/index.html">
                 <img src="/src/componentes/header/img/titulo.png" alt="">
             </a>
         </div>
@@ -40,7 +39,7 @@ header.innerHTML = `
                         <li><a href="/src/componentes/produtos/produtos.html" class="nav-link">Produtos</a></li>
                         <li><a href="/" class="nav-link">Dados</a></li>
                         <li><a href="/" class="nav-link">Produção</a></li>
-                        <li><button id="SejaCatadorBTN_desktop" class="nav-link">Seja um Associado</button></li>
+                        <li><button id="SejaCatadorBTN_desktop">Seja um Associado</button></li>
                     </div>
                 </ul>
             </div>
@@ -56,14 +55,14 @@ const closebtn=document.getElementById('close')
 openbtn.addEventListener('click',()=>{
     const content=document.getElementById('list_content_mobile');
     const container=document.querySelector(".nav-bar_mobile")
-    content.style = 'margin-left:-0%; transition:1s;'
+    content.style = 'margin-right:-2%; transition:1s;'
     container.style = "z-index: 4;"
     openbtn.style = 'display:none;'
 })
 closebtn.addEventListener('click',()=>{
     const content=document.getElementById('list_content_mobile');
     const container=document.querySelector(".nav-bar_mobile")
-    content.style = 'margin-left:-60%; transition:1s;'
+    content.style = 'margin-right:-60%; transition:1s;'
     container.style = "z-index: 3;"
     openbtn.style = 'display:inline; transition:2s;'
 })

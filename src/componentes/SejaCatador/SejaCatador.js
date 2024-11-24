@@ -18,10 +18,10 @@ function addContentSejaCatador(){
                 <label for="NameUser">Nome completo</label>
                 <input type="text" name="nome" id="NameUser" placeholder="Nome*" required>
                 <label for="NumeroUser">Telefone</label>
-                <input type="tel" name="numeroTel" id="NumeroUser" placeholder="Ex: (11) 91234-5678*" required pattern="^\([1-9]{2}\)\s9[1-9]{1}[0-9]{3}-[0-9]{4}$">
+                <input type="tel" name="numeroTel" id="NumeroUser" placeholder="Ex: (11) 91234-5678*" required >
                 <!-- <span>Formato: (XX) 9XXXX-XXXX</span> -->
                 <label for="EmailUser">Email completo</label>
-                <input type="email" name="email" id="EmailUser" placeholder="E-mail*" required>
+                <input type="email" name="email" id="EmailUser" placeholder="E-mail*">
                     <button id="btn_send">Enviar</button>
                 </div>
             </form>
@@ -45,5 +45,6 @@ btn_SejaCatador_desktop.addEventListener('click',()=>{
 
 const btnDataColect=document.getElementById('btn_send')
 btnDataColect.addEventListener('click',()=>{
-    
+    alert("enviado")
+    console.log('feito')
 })

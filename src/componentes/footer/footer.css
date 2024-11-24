@@ -1,7 +1,10 @@
+footer{
+    height: 80vh;
+}
 .footer {
-    margin-top: 5%;
     background-color: #63022D;
     width: 100%;
+    height: 100%;
     padding: 20px 0;
     color: #FFFFFF;
     text-align: center;

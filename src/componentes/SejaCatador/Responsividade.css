@@ -1,21 +1,61 @@
 @media screen and (max-width:768px){
-  .title_section_SejaCatador{
-    display: none;
+  .SejaCatador_Section{border: 2px solid red;}
+  .content_SejaCatador .img_section_SejaCatador{
+    height: 100%;
+    width: 100vw;
+    border: 2px solid green;
   }
-  .input_section_SejaCatador{
-    display: none;
+  .content_SejaCatador .input_section_SejaCatador{
+    height: 100%;
+    width: 100vw;
+    border: 2px solid green;
   }
   .img_section_SejaCatador{
-    overflow-x:hidden ;
-    border: 3px solid black;
-    background-image: url('/src/componentes/SejaCatador/img/sustentavel.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    opacity: 75%;
     position: absolute;
-    width: 100vw;
-    height: 80vh;
+    top: 10vh;
+    opacity: 25%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
   }
-  .img_section_SejaCatador img{display: none;}
-  
+  .img_section_SejaCatador img{
+    max-width: 500px;max-height: 500px;
+    width: auto;min-width: 100px;
+    height: auto;min-height: 100px;
+    padding: 2%;
+    z-index: 0;
+  }
+  .title_section_SejaCatador{
+    width: 99vw;
+    display: block;
+    border: 2px solid red;
+  }
+  .title_section_SejaCatador div{padding: 0 2px; margin: 0px;}
+  .title_SejaCatador h1{
+    font-size: 1.75rem;
+    word-break: break-all;
+  }
+  .sub_title_SejaCatador h1{font-size: 1.25rem;word-break: break-all;}
+  .input_section_SejaCatador{
+    display: block;
+    border: 2px solid yellowgreen;
+    width: 100%;
+    height: auto;
+    z-index: 3;
+  }
+  .form_SejaCatador{
+    border: 2px solid yellowgreen;
+    width: 100%;
+    height: 100%;
+  }
+  .content_form{margin: 0px;}
+  .content_form input{
+    width: 80%;
+    z-index: 3;
+  }
+  .content_form input:focus{
+    transform: scale(1);
+  }
 }
