@@ -1,7 +1,7 @@
 /*main*/
 main {
     width: 100vw;
-    height: 100%;
+    height: auto;
     overflow-x: hidden;
     display: block;
     justify-items: center;

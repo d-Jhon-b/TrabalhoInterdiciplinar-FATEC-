@@ -1,0 +1,21 @@
+@media screen and (max-width:768px){
+  .title_section_SejaCatador{
+    display: none;
+  }
+  .input_section_SejaCatador{
+    display: none;
+  }
+  .img_section_SejaCatador{
+    overflow-x:hidden ;
+    border: 3px solid black;
+    background-image: url('/src/componentes/SejaCatador/img/sustentavel.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 75%;
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+  }
+  .img_section_SejaCatador img{display: none;}
+  
+}

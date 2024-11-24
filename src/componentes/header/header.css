@@ -3,18 +3,20 @@ header{
     max-height: 200vh;
     width: 100vw;
     height: 10vh;
-    background: linear-gradient(180deg, #63022d,#63022d);
+    /* background: linear-gradient(180deg, #63022d,#63022d); */
     display: flex;
     align-items: center;
     align-content: center;
     z-index: -1;
 }
 .nav-bar{
+    position: fixed;
     width: 100vw;
     height: 10vh;
     color: white;
     display: flex;
     background: linear-gradient(180deg, #63022d,#63022d);
+    z-index: 1000;
 }
 .nav-bar a{
     color: white;
@@ -38,14 +40,37 @@ header{
     align-items: center;
     align-content: center;
 }
-.lista-navigation ul .esquerda-header,.direita-header{
+.lista_Conteudo{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link::after{
+    content: " ";
+    width: 0% ;
+    height: 2px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: 0.25s ease-in-out;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+/* .lista-navigation ul .esquerda-header,.direita-header{
     width: 40%;
     height: 8vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
     z-index: 1;
-}
+} */
 .direita-header{
     margin-right: 20px;
 }
@@ -72,6 +97,7 @@ header{
 #SejaCatadorBTN_desktop:hover{color: rgb(235, 165, 14); background-color: black; transition: 0.5s;}
 
 .empresa_nome_mobile{display: none;}
+.icone{display: none;}
 /*responsividade*/
 @media screen and (max-width:768px){
     header{
@@ -82,6 +108,7 @@ header{
     .nav-bar{display: none;}
     /*ICONE*/
     .icone{
+        display: inline;
         padding: 5px;
         background-color: rgb(255, 255, 255,0.75);
         position: fixed;

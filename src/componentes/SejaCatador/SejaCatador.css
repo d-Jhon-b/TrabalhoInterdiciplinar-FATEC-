@@ -1,5 +1,96 @@
-.testediv{
-    background-color: aqua;
-    height: 100px;
-    width: 100px;
+
+.SejaCatador_Section{width: 100vw;height: 100%;display: block; overflow: hidden;}
+.title_section_SejaCatador{
+    width: 100vw;
+    height: 20vh;
+    display: block;
+}
+.title_section_SejaCatador div{
+    width: 100vw;
+    height: 50%;
+    margin: 15px;
+}
+.title_section_SejaCatador .sub_title_SejaCatador{
+    width: 100%;
+}
+.title_SejaCatador{
+    text-align: center;
+    margin:5px;
+}
+.sub_title_SejaCatador{
+    margin:5px;
+}
+.title_SejaCatador h1{font-size:5rem; color: #63022d;}
+.sub_title_SejaCatador h1{font-size: 2rem; color: black; text-align: center;}
+/*input_section_SejaCatador*/
+.content_SejaCatador{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.content_SejaCatador article{
+    height: 75%;
+}
+.input_section_SejaCatador{
+    width: 60%;
+}
+.input_section_SejaCatador form{
+    height: 80%;
+    width: 80%;
+    display: inline;    
+    justify-content: center;
+    align-items: center;
+}
+.content_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-left: 50px;
+    padding-bottom: 15px;
+}
+.content_form label{
+    color: #fd8abd;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.content_form input{
+    border-radius: 15px;
+    background-color: transparent;
+    color: black;
+    width: 50%;
+    height:50px;
+    padding-left: 2.5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;}
+
+#btn_send{
+    padding: 5px;
+    height: 50px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin: 2% 0.5%;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+#btn_send:hover{
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+    /*img_section_SejaCatador*/
+.img_section_SejaCatador{
+    width: 50%;
+    display: inline;
+    align-content: center;
+    text-align: center;
+}
+.img_section_SejaCatador img{
+    height: 80%;
+    width: 80%;
 }

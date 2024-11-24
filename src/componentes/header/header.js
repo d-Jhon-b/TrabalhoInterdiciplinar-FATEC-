@@ -30,20 +30,17 @@ header.innerHTML = `
         <nav class="nav-bar">
             <div class="lista-navigation">
                 <ul>
-
                     <div class="empresa_nome">
-                        <a href="./index.html">
+                        <a href="/index.html">
                             <img src="/src/componentes/header/img/titulo.png" alt="">
                         </a>
                     </div>
-                    <div class="esquerda-header">
-                        <li><a href="/src/componentes/Materiais/materiais.html">Materiais</a></li>
-                        <li><a href="/src/componentes/produtos/produtos.html">Produtos</a></li>
-                    </div>
-                    <div class="direita-header">
-                        <li><a href="/">Dados</a></li>
-                        <li><a href="/">Produção</a></li>
-                        <li><button id="SejaCatadorBTN_desktop">Seja um Associado</button></li>
+                    <div class="lista_Conteudo">
+                        <li><a href="/src/componentes/Materiais/materiais.html" class="nav-link">Materiais</a></li>
+                        <li><a href="/src/componentes/produtos/produtos.html" class="nav-link">Produtos</a></li>
+                        <li><a href="/" class="nav-link">Dados</a></li>
+                        <li><a href="/" class="nav-link">Produção</a></li>
+                        <li><button id="SejaCatadorBTN_desktop" class="nav-link">Seja um Associado</button></li>
                     </div>
                 </ul>
             </div>
