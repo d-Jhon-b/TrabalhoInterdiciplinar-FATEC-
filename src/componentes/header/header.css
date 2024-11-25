@@ -63,6 +63,46 @@ header{
 .nav-link:hover::after{
     width: 100%;
 }
+
+#materiaisBotao{
+    position: relative;
+}
+
+#materiaisBotao::after{
+    content: " ";
+    width: 0% ;
+    height: 2px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    transition: 0.25s ease-in-out;
+}
+
+#materiaisBotao:hover::after{
+    width: 100%;
+}
+
+#produtosBotao{
+   position: relative;
+}
+
+#produtosBotao::after{
+    content: " ";
+    width: 0% ;
+    height: 2px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    transition: 0.25s ease-in-out;
+}
+
+#produtosBotao:hover::after{
+    width: 100%;
+}
 /* .lista-navigation ul .esquerda-header,.direita-header{
     width: 40%;
     height: 8vh;
