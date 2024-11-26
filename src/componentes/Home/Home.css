@@ -296,9 +296,8 @@ main {
 
 .production_esquerda p {
     padding: 0 60px;
-    font-size: 1.2rem;
-    /* text-align: initial; */
-    text-align: justify;
+    font-size: 1.8rem;
+    text-align: center;
     font-weight: 500;
 }
 

@@ -36,7 +36,7 @@
 }
 
 .line {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     height: 1px;
     margin-top: 20px;
     margin-bottom: 20px;
