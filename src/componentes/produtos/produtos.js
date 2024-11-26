@@ -1,5 +1,4 @@
 const produtosBotao = document.getElementById('produtosBotao')
-const saibaMaisProdutos = document.getElementById('saibaMaisProdutos')
 
 function addContentProdutos(){
     const main = document.getElementById('main')
@@ -73,11 +72,6 @@ function addContentProdutos(){
 }
 
 produtosBotao.addEventListener('click',(e)=>{
-    e.preventDefault()
-    addContentProdutos()
-})
-
-saibaMaisProdutos.addEventListener('click',(e)=>{
     e.preventDefault()
     addContentProdutos()
 })
