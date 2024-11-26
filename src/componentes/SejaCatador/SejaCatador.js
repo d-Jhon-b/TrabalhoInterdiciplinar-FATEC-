@@ -41,9 +41,3 @@ btn_SejaCatador_mobile.addEventListener('click',()=>{
 btn_SejaCatador_desktop.addEventListener('click',()=>{
     addContentSejaCatador()
 })
-
-const btnDataColect=document.getElementById('btn_send')
-btnDataColect.addEventListener('click',()=>{
-    alert("enviado")
-    console.log('feito')
-})
