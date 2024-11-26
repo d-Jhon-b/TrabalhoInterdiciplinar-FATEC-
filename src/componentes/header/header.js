@@ -8,7 +8,7 @@ header.innerHTML = `
                 </div>
                 <div class="list_content">
                 <button id="materiais">Materiais</button>
-                <a href="/">Produtos</a>
+                <button id="produtos">Produtos</button>
                 <a href="/">Produção</a>
                 <button id="SejaCatadorBTN_mobile">Seja um Associado</button>
                 </div>
@@ -35,8 +35,8 @@ header.innerHTML = `
                         </a>
                     </div>
                     <div class="lista_Conteudo">
-                        <li><a href="/src/componentes/Materiais/materiais.html" class="nav-link">Materiais</a></li>
-                        <li><a href="/src/componentes/produtos/produtos.html" class="nav-link">Produtos</a></li>
+                        <li><a href="/src/componentes/Materiais/materiais.html" id="materiaisBotao">Materiais</a></li>
+                        <li><a href="/src/componentes/produtos/produtos.html" id="produtosBotao">Produtos</a></li>
                         <li><a href="/" class="nav-link">Dados</a></li>
                         <li><a href="/" class="nav-link">Produção</a></li>
                         <li><button id="SejaCatadorBTN_desktop">Seja um Associado</button></li>
@@ -48,6 +48,10 @@ header.innerHTML = `
 
 document.getElementById("materiais").addEventListener("click", function () {
     window.location.href = "src/componentes/Materiais/materiais.html";
+});
+
+document.getElementById("produtos").addEventListener("click", function () {
+    window.location.href = "src/componentes/produtos/produtos.html";
 });
 
 const openbtn = document.getElementById('open')

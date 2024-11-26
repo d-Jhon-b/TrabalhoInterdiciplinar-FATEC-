@@ -4,7 +4,6 @@ const btn_SejaCatador_desktop= document.getElementById('SejaCatadorBTN_desktop')
 
 function addContentSejaCatador(){
     const main=document.getElementById('main')
-    main.innerHTML = " "
     main.innerHTML = `
         <section class="SejaCatador_Section">
           <article class="title_section_SejaCatador">
