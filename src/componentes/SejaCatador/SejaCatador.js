@@ -26,7 +26,11 @@ function addContentSejaCatador(){
             </form>
           </article>
           <article class="img_section_SejaCatador">
+//<<<<< main
+            <img src="./src/componentes/SejaCatador/img/sustentavel.png" alt="">
+//=====
             <img src="./src/img/SejaCatador/img/sustentavel.png" alt="Sustentavel">
+//>>>>> main
           </article>
           </div>
         </section>
