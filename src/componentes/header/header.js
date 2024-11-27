@@ -37,8 +37,8 @@ header.innerHTML = `
                     <div class="lista_Conteudo">
                         <li><a href="/src/componentes/Materiais/materiais.html" id="materiaisBotao">Materiais</a></li>
                         <li><a href="/src/componentes/produtos/produtos.html" id="produtosBotao">Produtos</a></li>
-                        <li><a href="/" class="nav-link">Dados</a></li>
-                        <li><a href="/" class="nav-link">Produção</a></li>
+                        <li><a href="#" class="nav-link">Dados</a></li>
+                        <li><a href="#" class="nav-link">Produção</a></li>
                         <li><button id="SejaCatadorBTN_desktop">Seja um Associado</button></li>
                     </div>
                 </ul>
