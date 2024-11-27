@@ -9,9 +9,9 @@ function addContentProdutos(){
             <ul class="produtoCatalogo">
                 <h2>CORRUPIO LOOP LAMP</h2>
                 <div>
-                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/produtos/img/c2-cópia.jpg" alt="CORRUPIO LOOP LAMP">
-                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/produtos/img/c2-cópia_i.jpg" alt="CORRUPIO LOOP LAMP">
-                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/produtos/img/c3.jpg" alt="CORRUPIO LOOP LAMP">
+                <img src="./src/componentes/produtos/img/c2-cópia.jpg" alt="CORRUPIO LOOP LAMP">
+                <img src="./src/componentes/produtos/img/c2-cópia_i.jpg" alt="CORRUPIO LOOP LAMP">
+                <img src="./src/componentes/produtos/img/c3.jpg" alt="CORRUPIO LOOP LAMP">
                 </div>
                 <p>Conheça a Corrupio Loop Lamp , uma luminária projetada para facilitar a montagem e a desmontagem, o reparo e atualização de suas peças.</p>
             </ul>
