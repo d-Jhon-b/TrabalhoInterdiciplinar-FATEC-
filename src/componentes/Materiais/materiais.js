@@ -1,4 +1,3 @@
-const SaibaMaisMateriais
 
 function addContentMateriais(){
     const main = document.getElementById('main')

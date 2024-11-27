@@ -6,7 +6,10 @@ main {
     display: block;
     justify-items: center;
 }
-
+.container_full{
+  height: 100%;
+  width: 100%;
+}
 /*tipos de titulo*/
 .titulo_home_page_tipo1 {
     text-align: center;
@@ -31,7 +34,7 @@ main {
     width: 100%;
     height: 100%;
     background-color: rgb(0, 0, 0,0.2);
-    background-image: url("./primeiraTela/img/fundo.png");
+    background-image: url("/src/img/desktop_home/fundo.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -50,7 +53,6 @@ main {
 .text_img_content_desktop {
     width: 100%;
     height: 100%;
-    border: 3px solid black;
     text-align: center;
     align-content: center;
 }
@@ -65,7 +67,6 @@ main {
     width: 100vw;
     height: 90vh;
     text-align: center;
-    /* overflow: hidden; */
 }
 
 .titulo_desktop_tipo1 {
@@ -273,7 +274,6 @@ main {
     height: 90vh;
     text-align: center;
     display: block;
-    border: 3PX solid black;
 }
 
 .content_production_desktop {
@@ -322,6 +322,7 @@ main {
     width: 100%;
     height: 90vh;
     text-align: center;
+    margin-bottom: 55px;
     overflow: hidden;
 }
 
@@ -331,7 +332,7 @@ main {
 
 .slider_data {
   width: 100%;
-  height: 100%;
+  height: 88vh;
   /* overflow: hidden; */
   overflow-x: hidden;
 }
@@ -448,6 +449,7 @@ main {
 
 .navigation-auto-data div:not(:last-child) {
   margin-right: 40px;
+  
 }
 
 #radioData1:checked ~.navigation-auto-data .auto-data-btn1 {

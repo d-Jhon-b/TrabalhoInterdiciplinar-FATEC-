@@ -19,4 +19,23 @@ body{
     width: 100vw;
     height: auto;
     overflow-x: hidden;
+    background: linear-gradient(white, white);
+}
+/*cursor*/
+.luz {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 0.25rem #63022d);    
+    pointer-events: none; /* Impede que o cursor seja capturado pela luz */
+    z-index: 2000;
+}
+
+.luz:nth-child(2) {
+    opacity: 0.3;
+    width: 30px;
+    height: 30px;
 }
