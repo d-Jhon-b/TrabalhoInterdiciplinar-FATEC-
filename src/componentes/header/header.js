@@ -30,7 +30,7 @@ header.innerHTML = `
             <div class="lista-navigation">
                 <ul>
                     <div class="empresa_nome">
-                        <a href="/src/index.html">
+                        <a href="/index.html">
                             <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/header/img/titulo.png" alt="">
                         </a>
                     </div>
