@@ -26,10 +26,10 @@ body{
     position: fixed;
     width: 8px;
     height: 8px;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 50%;
-    background-color: #ffffff;
-    filter: drop-shadow(0 0 0.25rem #63022d);    
+    background-color: #63022d;
+    filter: drop-shadow(0 0mm 0.25rem #63022d);    
     pointer-events: none; /* Impede que o cursor seja capturado pela luz */
     z-index: 2000;
 }
