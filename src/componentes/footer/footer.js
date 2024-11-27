@@ -4,7 +4,7 @@ footer.innerHTML =`
              <div class="footer-title">Siga @ratoroi</div>
              <div class="footer-content">
                 <div class="footer-item">
-                    <img src="./src/componentes/Home/img/icones/instagram.png" alt="Instagram icon">
+                    <img src="src/componentes/Home/img/icones/instagram.png" alt="Instagram icon">
                     <a href="#" class="footer-link">Instagram</a>
                 </div>
                 <div class="footer-item">
