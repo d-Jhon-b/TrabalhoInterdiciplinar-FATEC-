@@ -28,10 +28,10 @@ export function Mainbuild(){
                     <div class="direita_info_desktop card">
                         <div class="info_desktop_img flip">
                             <div class="front-card">
-                                <img src="/src/img/desktop_home/materiais/material1.png" alt="m1" class="teste1">
+                                <img src="./src/img/desktop_home/materiais/material1.png" alt="m1" class="teste1">
                             </div>
                             <div class="back-card">
-                                <img src="/src/img/desktop_home/materiais/material2.png" alt="">
+                                <img src="./src/img/desktop_home/materiais/material2.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -47,10 +47,10 @@ export function Mainbuild(){
                     <div class="esquerda_produto_desktop card">
                         <div class="produto_desktop_img flip">
                             <div class="front-card">
-                                <img src="/src/img/desktop_home/produtos/produto1.jpg" alt="m1">
+                                <img src="./src/img/desktop_home/produtos/produto1.jpg" alt="m1">
                             </div>
                             <div class="back-card">
-                                <img src="/src/img/desktop_home/produtos/produto2.jpg" alt="m2">
+                                <img src="./src/img/desktop_home/produtos/produto2.jpg" alt="m2">
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ export function Mainbuild(){
                     </p>
                 </div>
                 <div class="production_direita">
-                    <img src="/src/img/CadeiaProdutiva/cadeiaProdutiva.jpg" alt="" id="cadeiaProdutiva">
+                    <img src="./src/img/CadeiaProdutiva/cadeiaProdutiva.jpg" alt="" id="cadeiaProdutiva">
                 </div>
                 </section>
             </article>
@@ -104,19 +104,19 @@ export function Mainbuild(){
                         <!-- slides -->
                          
                          <div class="slide_data data_first slide_1">
-                            <img src="/src/img/desktop_home/slides/1.jpg" alt="">
+                            <img src="./src/img/desktop_home/slides/1.jpg" alt="">
                             <p>50 kg de plástico reutilizados</p>
                          </div>
                          <div class="slide_data slide_2">
-                            <img src="/src/img/desktop_home/slides/2.png" alt="">
+                            <img src="./src/img/desktop_home/slides/2.png" alt="">
                             <p>50 kg de plástico reutilizados</p>
                          </div>
                          <div class="slide_data slide_3">
-                            <img src="/src/img/desktop_home/slides/3.jpg" alt="">
+                            <img src="./src/img/desktop_home/slides/3.jpg" alt="">
                             <p>50 kg de plástico reutilizados</p>
                         </div>
                          <div class="slide_data slide_4">
-                            <img src="/src/img/desktop_home/slides/4.jpg" alt="">
+                            <img src="./src/img/desktop_home/slides/4.jpg" alt="">
                             <p>50 kg de plástico reutilizados</p>
                         </div>
                         <!-- end slides -->
@@ -159,7 +159,7 @@ export function Mainbuild(){
                                 <p class="conteudo_um">BOX DE AMOSTRAS CORRUPIO STEM LOW AND HIGH</p>
                             </div>
                             <div class="img_slide_content img_slide_um"onclick="slide_um()" id="slide_um">
-                                <img src="/src/img/desktop_home/materiais/material1.png" alt="img_exemplo" class="img_slide" id="img_slide" >
+                                <img src="./src/img/desktop_home/materiais/material1.png" alt="img_exemplo" class="img_slide" id="img_slide" >
                             </div>
                         </div>
                     </div>
@@ -173,7 +173,7 @@ export function Mainbuild(){
                                 <p class="conteudo_dois">CORRUPIO LOOP LAMP</p>
                             </div>
                             <div class="img_slide_content img_slide_dois"onclick="slide_dois()" id="slide_dois">
-                                <img src="/src/img/desktop_home/produtos/produto1.jpg" alt="img_exemplo" class="img_slide" id="img_slide" >
+                                <img src="./src/img/desktop_home/produtos/produto1.jpg" alt="img_exemplo" class="img_slide" id="img_slide" >
                             </div>
                         </div>
                         
@@ -197,7 +197,7 @@ export function Mainbuild(){
                 </div>
                 <div class="container_um_direita">
                     <div class="img_cadeiraProdutiva">
-                        <img src="/src/img/CadeiaProdutiva/cadeiaProdutiva.jpg" alt="img_exemplo" class="img_slide" id="img_slide_teste" >
+                        <img src="./src/img/CadeiaProdutiva/cadeiaProdutiva.jpg" alt="img_exemplo" class="img_slide" id="img_slide_teste" >
                     </div>
                 </div>
             </article>
@@ -211,16 +211,16 @@ export function Mainbuild(){
                     <input type="radio" name="radio-btn" id="radio4">
                 
                     <div class="slide first">
-                        <img src="/src/img/desktop_home/slides/1.jpg" alt="" class="img_1 img">
+                        <img src="./src/img/desktop_home/slides/1.jpg" alt="" class="img_1 img">
                     </div>
                     <div class="slide second">
-                        <img src="/src/img/desktop_home/slides/2.png" alt="" class="img_2 img">
+                        <img src="./src/img/desktop_home/slides/2.png" alt="" class="img_2 img">
                     </div>
                     <div class="slide">
-                        <img src="/src/img/desktop_home/slides/3.jpg" alt="" class="img_3 img">
+                        <img src="./src/img/desktop_home/slides/3.jpg" alt="" class="img_3 img">
                     </div>
                     <div class="slide">
-                        <img src="/src/img/desktop_home/slides/4.jpg" alt="" class="img_4 img">
+                        <img src="./src/img/desktop_home/slides/4.jpg" alt="" class="img_4 img">
                     </div>
                     <div class="navigation-auto">
                         <div class="auto-btn1"></div>

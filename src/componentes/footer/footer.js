@@ -5,19 +5,19 @@ export function Footerbuild(){
                  <div class="footer-title">Siga @ratoroi</div>
                  <div class="footer-content">
                     <div class="footer-item">
-                        <img src="/src/img/footer/instagram.png" alt="Instagram icon">
+                        <img src="./src/img/footer/instagram.png" alt="Instagram icon">
                         <a href="#" class="footer-link">Instagram</a>
                     </div>
                     <div class="footer-item">
-                        <img src="/src/img/footer/facebook.png" alt="Facebook icon">
+                        <img src="./src/img/footer/facebook.png" alt="Facebook icon">
                         <a href="#" class="footer-link">Facebook</a>
                     </div>
                     <div class="footer-item">
-                        <img src="/src/img/footer/email.png" alt="Email icon">
+                        <img src="./src/img/footer/email.png" alt="Email icon">
                         <a href="mailto:ratoroi@ratoroi.com.br?subject=teste&body=teste" class="footer-link" id='link_de_contato' target='_parent'>Arage@gmail.com</a>
                     </div>
                     <div class="footer-item">
-                        <img src="/src/img/footer/telefone.png" alt="Phone icon">
+                        <img src="./src/img/footer/telefone.png" alt="Phone icon">
                         <span class="footer-link">4733071008</span>
                     </div>
                     <div class="footer-item footer-map">

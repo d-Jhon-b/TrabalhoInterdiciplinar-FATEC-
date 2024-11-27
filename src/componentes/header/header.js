@@ -31,13 +31,13 @@ export function Headerbuild(){
                 <div class="lista-navigation">
                     <ul>
                         <div class="empresa_nome">
-                            <a href="/index.html">
+                            <a href="./index.html">
                                 <img src="./src/img/header/titulo.png" alt="">
                             </a>
                         </div>
                         <div class="lista_Conteudo">
-                            <li><a href="/src/componentes/Materiais/materiais.html" id="materiaisBotao">Materiais</a></li>
-                            <li><a href="/src/componentes/produtos/produtos.html" id="produtosBotao">Produtos</a></li>
+                            <li><a href="./src/componentes/Materiais/materiais.html" id="materiaisBotao">Materiais</a></li>
+                            <li><a href="/.src/componentes/produtos/produtos.html" id="produtosBotao">Produtos</a></li>
                             <li><a href="/" class="nav-link">Dados</a></li>
                             <li><a href="/" class="nav-link">Produção</a></li>
                             <li><button id="SejaCatadorBTN_desktop">Seja um Associado</button></li>
