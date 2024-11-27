@@ -10,13 +10,29 @@ header{
     z-index: -1;
 }
 .nav-bar{
+    display: flex;
     position: fixed;
+    top: 0;
     width: 100vw;
     height: 10vh;
     color: white;
     display: flex;
-    background: linear-gradient(180deg, #63022d,#63022d);
+    background: linear-gradient(45deg, #63022d,#cc2a73,#63022d);
+    background-size: 400% 400%;
     z-index: 1000;
+    animation: testeBack 5s ease infinite;
+}
+@keyframes testeBack{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+
+    }
 }
 .nav-bar a{
     color: white;
@@ -103,14 +119,7 @@ header{
 #produtosBotao:hover::after{
     width: 100%;
 }
-/* .lista-navigation ul .esquerda-header,.direita-header{
-    width: 40%;
-    height: 8vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 1;
-} */
+
 .direita-header{
     margin-right: 20px;
 }
@@ -120,9 +129,7 @@ header{
     align-items: center;    
     justify-content: space-around;
 }
-.nav-bar_mobile{
-    display: none;
-}
+
 #SejaCatadorBTN_desktop{
     background-color: white;
     border-radius: 15px;
@@ -137,6 +144,7 @@ header{
 #SejaCatadorBTN_desktop:hover{color: rgb(235, 165, 14); background-color: black; transition: 0.5s;}
 
 .empresa_nome_mobile{display: none;}
+.list_content_mobile{display: none;}
 .icone{display: none;}
 /*responsividade*/
 @media screen and (max-width:768px){
@@ -176,13 +184,15 @@ header{
     .line:focus{color: gold;}
     /*nav-mobile*/
     .nav-bar_mobile{
+        background-color: #63022d;
         display: flex;
         position: fixed;
         width: 100%;
         height: 10vh;
-        z-index: 3;
+        z-index: 100;
     }
     .list_content_mobile{
+        display: inline;
         margin-right: -60%;
         justify-items: start;
         background-color: #63022d;
@@ -193,6 +203,7 @@ header{
         z-index: 5;
         border: 3px solid rgb(255, 255, 255);
         border-radius:15px 0 0 15px;
+        z-index: 1000;
     }
     .list_content{width: 100%;
     display: block;
@@ -239,15 +250,16 @@ header{
         background-color: rgb(255, 255, 255);
     }
     /*nome empresa mobile;*/
-    .empresa_nome_mobile{height: 100%;width: 50%;
+    .empresa_nome_mobile{height: 100%;width: 100%;
         display: flex;
         justify-content: center;
-        z-index: 3;
+        z-index: 100;
     }
     .empresa_nome_mobile a{height: 100%;
     width: 100%;
     align-content: center;
     text-align: center;
+    justify-content: center;
 }
     .empresa_nome_mobile a img{
         min-width: 160px;min-height: 8vh;

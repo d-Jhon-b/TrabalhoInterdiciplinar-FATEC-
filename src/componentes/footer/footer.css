@@ -1,5 +1,7 @@
 footer{
-    height: 80vh;
+    height: 88vh;
+    z-index: 900;
+    overflow: visible;
 }
 .footer {
     background-color: #63022D;
@@ -26,7 +28,9 @@ footer{
 }
 
 .footer-item {
+    width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 10px;
     text-align: center;
@@ -45,5 +49,20 @@ footer{
     color: #FFFFFF;
     line-height: 1.5;
 }
-
-
+.footer-map{
+    display: block;
+    justify-items: center;
+    align-content: center;
+}
+.footer-map iframe{
+    width:95vw; height:60vh;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+@media screen and  (max-width:768px){
+    .footer-map iframe{
+        width:95vw; height:30vh;
+        border-radius: 15px;
+        border: 1px solid black;
+    }
+}

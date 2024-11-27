@@ -1,14 +1,12 @@
 @media screen and (max-width:768px){
-  .SejaCatador_Section{border: 2px solid red;}
+  .SejaCatador_Section{}
   .content_SejaCatador .img_section_SejaCatador{
     height: 100%;
     width: 100vw;
-    border: 2px solid green;
   }
   .content_SejaCatador .input_section_SejaCatador{
     height: 100%;
     width: 100vw;
-    border: 2px solid green;
   }
   .img_section_SejaCatador{
     position: absolute;
@@ -30,7 +28,6 @@
   .title_section_SejaCatador{
     width: 99vw;
     display: block;
-    border: 2px solid red;
   }
   .title_section_SejaCatador div{padding: 0 2px; margin: 0px;}
   .title_SejaCatador h1{
@@ -40,13 +37,11 @@
   .sub_title_SejaCatador h1{font-size: 1.25rem;word-break: break-all;}
   .input_section_SejaCatador{
     display: block;
-    border: 2px solid yellowgreen;
     width: 100%;
     height: auto;
     z-index: 3;
   }
   .form_SejaCatador{
-    border: 2px solid yellowgreen;
     width: 100%;
     height: 100%;
   }

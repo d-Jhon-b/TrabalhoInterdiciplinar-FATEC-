@@ -1,4 +1,7 @@
+//<<<<< main
 const materiaisBotao = document.getElementById('materiaisBotao')
+//=====
+//>>>>> main
 
 function addContentMateriais(){
     const main = document.getElementById('main')
