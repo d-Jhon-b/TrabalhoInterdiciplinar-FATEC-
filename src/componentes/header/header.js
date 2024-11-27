@@ -16,7 +16,7 @@ header.innerHTML = `
         </nav>
         <div class="empresa_nome_mobile">
             <a href="index.html">
-                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/header/img/titulo.png" alt="">
+                <img src="./src/componentes/header/img/titulo.png" alt="">
             </a>
         </div>
         <div class="icone" id="open">
@@ -31,7 +31,7 @@ header.innerHTML = `
                 <ul>
                     <div class="empresa_nome">
                         <a href="index.html">
-                            <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/header/img/titulo.png" alt="" id="homeBotao">
+                            <img src="./src/componentes/header/img/titulo.png" alt="" id="homeBotao">
                         </a>
                     </div>
                     <div class="lista_Conteudo">
