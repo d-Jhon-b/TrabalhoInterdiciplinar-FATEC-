@@ -26,10 +26,10 @@ main.innerHTML = `<section class="tela_desktop">
                     <div class="direita_info_desktop card">
                         <div class="info_desktop_img flip">
                             <div class="front-card">
-                                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/primeiraTela/img/materiais/material1.png" alt="m1" class="teste1">
+                                <img src="./src/componentes/Home/primeiraTela/img/materiais/material1.png" alt="m1" class="teste1">
                             </div>
                             <div class="back-card">
-                                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/primeiraTela/img/materiais/material2.png" alt="">
+                                <img src="./src/componentes/Home/primeiraTela/img/materiais/material2.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -50,10 +50,10 @@ main.innerHTML = `<section class="tela_desktop">
                     <div class="esquerda_produto_desktop card">
                         <div class="produto_desktop_img flip">
                             <div class="front-card">
-                                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/primeiraTela/img/produtos/produto1.jpg" alt="m1">
+                                <img src="./src/componentes/Home/primeiraTela/img/produtos/produto1.jpg" alt="m1">
                             </div>
                             <div class="back-card">
-                                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/primeiraTela/img/produtos/produto2.jpg" alt="m2">
+                                <img src="./src/componentes/Home/primeiraTela/img/produtos/produto2.jpg" alt="m2">
                             </div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ main.innerHTML = `<section class="tela_desktop">
                     </p>
                 </div>
                 <div class="production_direita">
-                    <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/imgs/cadeiaProdutiva.jpg" alt="" id="cadeiaProdutiva">
+                    <img src="./src/componentes/imgs/cadeiaProdutiva.jpg" alt="" id="cadeiaProdutiva">
                 </div>
                 </section>
             </article>
@@ -109,19 +109,19 @@ main.innerHTML = `<section class="tela_desktop">
                         <!-- slides -->
                          
                          <div class="slide_data data_first slide_1">
-                            <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/2.png" alt="">
+                            <img src="./src/componentes/Home/img/slides/2.png" alt="">
                             <p>50 kg de plástico reutilizados</p>
                          </div>
                          <div class="slide_data slide_2">
-                            <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/b647cb22-1bde-414e-b48f-4092c1d46c25.jpg" alt="">
+                            <img src="./src/componentes/Home/img/slides/b647cb22-1bde-414e-b48f-4092c1d46c25.jpg" alt="">
                             <p>60 kg de plástico reutilizados</p>
                          </div>
                          <div class="slide_data slide_3">
-                            <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/TANIABULHOES_QUIOSQUE_camila-barrionovo-fotografia-ribeirao-preto-2.jpg" alt="">
+                            <img src="./src/componentes/Home/img/slides/TANIABULHOES_QUIOSQUE_camila-barrionovo-fotografia-ribeirao-preto-2.jpg" alt="">
                             <p>70 kg de plástico reutilizados</p>
                         </div>
                          <div class="slide_data slide_4">
-                            <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/VO_EXPO_JK_LauraCampanella_0012.jpeg" alt="">
+                            <img src="./src/componentes/Home/img/slides/VO_EXPO_JK_LauraCampanella_0012.jpeg" alt="">
                             <p>80 kg de plástico reutilizados</p>
                         </div>
                         <!-- end slides -->
@@ -164,7 +164,7 @@ main.innerHTML = `<section class="tela_desktop">
                                 <p class="conteudo_um">BOX DE AMOSTRAS CORRUPIO STEM LOW AND HIGH</p>
                             </div>
                             <div class="img_slide_content img_slide_um"onclick="slide_um()" id="slide_um">
-                                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/primeiraTela/img/materiais/material1.png" alt="img_exemplo" class="img_slide" id="img_slide" >
+                                <img src="./src/componentes/Home/primeiraTela/img/materiais/material1.png" alt="img_exemplo" class="img_slide" id="img_slide" >
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,7 @@ main.innerHTML = `<section class="tela_desktop">
                                 <p class="conteudo_dois">CORRUPIO LOOP LAMP</p>
                             </div>
                             <div class="img_slide_content img_slide_dois"onclick="slide_dois()" id="slide_dois">
-                                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/primeiraTela/img/produtos/produto1.jpg" alt="img_exemplo" class="img_slide" id="img_slide" >
+                                <img src="./src/componentes/Home/primeiraTela/img/produtos/produto1.jpg" alt="img_exemplo" class="img_slide" id="img_slide" >
                             </div>
                         </div>
                         
@@ -202,12 +202,12 @@ main.innerHTML = `<section class="tela_desktop">
                 </div>
                 <div class="container_um_direita">
                     <div class="parte_um">
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/people/1.png" alt="" class="img_mural furina"><!--trocar nomes depois Alan-->
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/people/2.png" alt="" class="img_mural nahida"><!--trocar nomes depois Alan-->
+                        <img src="./src/componentes/Home/img/people/1.png" alt="" class="img_mural furina"><!--trocar nomes depois Alan-->
+                        <img src="./src/componentes/Home/img/people/2.png" alt="" class="img_mural nahida"><!--trocar nomes depois Alan-->
                     </div>
                     <div class="parte_dois">
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/people/3.png" alt="" class="img_mural raiden"><!--trocar nomes depois Alan-->
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/people/4.png" alt="" class="img_mural venti"><!--trocar nomes depois Alan-->
+                        <img src="./src/componentes/Home/img/people/3.png" alt="" class="img_mural raiden"><!--trocar nomes depois Alan-->
+                        <img src="./src/componentes/Home/img/people/4.png" alt="" class="img_mural venti"><!--trocar nomes depois Alan-->
                     </div>
                 </div>
             </article>
@@ -221,16 +221,16 @@ main.innerHTML = `<section class="tela_desktop">
                     <input type="radio" name="radio-btn" id="radio4">
                 
                     <div class="slide first">
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/2.png" alt="" class="img_1 img">
+                        <img src="./src/componentes/Home/img/slides/2.png" alt="" class="img_1 img">
                     </div>
                     <div class="slide second">
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/b647cb22-1bde-414e-b48f-4092c1d46c25.jpg" alt="" class="img_2 img">
+                        <img src="./src/componentes/Home/img/slides/b647cb22-1bde-414e-b48f-4092c1d46c25.jpg" alt="" class="img_2 img">
                     </div>
                     <div class="slide">
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/TANIABULHOES_QUIOSQUE_camila-barrionovo-fotografia-ribeirao-preto-2.jpg" alt="" class="img_3 img">
+                        <img src="./src/componentes/Home/img/slides/TANIABULHOES_QUIOSQUE_camila-barrionovo-fotografia-ribeirao-preto-2.jpg" alt="" class="img_3 img">
                     </div>
                     <div class="slide">
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/VO_EXPO_JK_LauraCampanella_0012.jpeg" alt="" class="img_4 img">
+                        <img src="./src/componentes/Home/img/slides/VO_EXPO_JK_LauraCampanella_0012.jpeg" alt="" class="img_4 img">
                     </div>
                     <div class="navigation-auto">
                         <div class="auto-btn1"></div>
@@ -276,10 +276,10 @@ main.innerHTML = `<section class="tela_desktop">
                     <div class="direita_info_desktop card">
                         <div class="info_desktop_img flip">
                             <div class="front-card">
-                                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/primeiraTela/img/materiais/material1.png" alt="m1" class="teste1">
+                                <img src="./src/componentes/Home/primeiraTela/img/materiais/material1.png" alt="m1" class="teste1">
                             </div>
                             <div class="back-card">
-                                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/primeiraTela/img/materiais/material2.png" alt="">
+                                <img src="./src/componentes/Home/primeiraTela/img/materiais/material2.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -300,10 +300,10 @@ main.innerHTML = `<section class="tela_desktop">
                     <div class="esquerda_produto_desktop card">
                         <div class="produto_desktop_img flip">
                             <div class="front-card">
-                                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/primeiraTela/img/produtos/produto1.jpg" alt="m1">
+                                <img src="./src/componentes/Home/primeiraTela/img/produtos/produto1.jpg" alt="m1">
                             </div>
                             <div class="back-card">
-                                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/primeiraTela/img/produtos/produto2.jpg" alt="m2">
+                                <img src="./src/componentes/Home/primeiraTela/img/produtos/produto2.jpg" alt="m2">
                             </div>
                         </div>
                     </div>
@@ -344,7 +344,7 @@ main.innerHTML = `<section class="tela_desktop">
                     </p>
                 </div>
                 <div class="production_direita">
-                    <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/imgs/cadeiaProdutiva.jpg" alt="" id="cadeiaProdutiva">
+                    <img src="./src/componentes/imgs/cadeiaProdutiva.jpg" alt="" id="cadeiaProdutiva">
                 </div>
                 </section>
             </article>
@@ -359,19 +359,19 @@ main.innerHTML = `<section class="tela_desktop">
                         <!-- slides -->
                          
                          <div class="slide_data data_first slide_1">
-                            <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/2.png" alt="">
+                            <img src="./src/componentes/Home/img/slides/2.png" alt="">
                             <p>50 kg de plástico reutilizados</p>
                          </div>
                          <div class="slide_data slide_2">
-                            <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/b647cb22-1bde-414e-b48f-4092c1d46c25.jpg" alt="">
+                            <img src="./src/componentes/Home/img/slides/b647cb22-1bde-414e-b48f-4092c1d46c25.jpg" alt="">
                             <p>60 kg de plástico reutilizados</p>
                          </div>
                          <div class="slide_data slide_3">
-                            <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/TANIABULHOES_QUIOSQUE_camila-barrionovo-fotografia-ribeirao-preto-2.jpg" alt="">
+                            <img src="./src/componentes/Home/img/slides/TANIABULHOES_QUIOSQUE_camila-barrionovo-fotografia-ribeirao-preto-2.jpg" alt="">
                             <p>70 kg de plástico reutilizados</p>
                         </div>
                          <div class="slide_data slide_4">
-                            <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/VO_EXPO_JK_LauraCampanella_0012.jpeg" alt="">
+                            <img src="./src/componentes/Home/img/slides/VO_EXPO_JK_LauraCampanella_0012.jpeg" alt="">
                             <p>80 kg de plástico reutilizados</p>
                         </div>
                         <!-- end slides -->
@@ -414,7 +414,7 @@ main.innerHTML = `<section class="tela_desktop">
                                 <p class="conteudo_um">BOX DE AMOSTRAS CORRUPIO STEM LOW AND HIGH</p>
                             </div>
                             <div class="img_slide_content img_slide_um"onclick="slide_um()" id="slide_um">
-                                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/primeiraTela/img/materiais/material1.png" alt="img_exemplo" class="img_slide" id="img_slide" >
+                                <img src="./src/componentes/Home/primeiraTela/img/materiais/material1.png" alt="img_exemplo" class="img_slide" id="img_slide" >
                             </div>
                         </div>
                     </div>
@@ -428,7 +428,7 @@ main.innerHTML = `<section class="tela_desktop">
                                 <p class="conteudo_dois">CORRUPIO LOOP LAMP</p>
                             </div>
                             <div class="img_slide_content img_slide_dois"onclick="slide_dois()" id="slide_dois">
-                                <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/primeiraTela/img/produtos/produto1.jpg" alt="img_exemplo" class="img_slide" id="img_slide" >
+                                <img src="./src/componentes/Home/primeiraTela/img/produtos/produto1.jpg" alt="img_exemplo" class="img_slide" id="img_slide" >
                             </div>
                         </div>
                         
@@ -452,12 +452,12 @@ main.innerHTML = `<section class="tela_desktop">
                 </div>
                 <div class="container_um_direita">
                     <div class="parte_um">
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/people/1.png" alt="" class="img_mural furina"><!--trocar nomes depois Alan-->
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/people/2.png" alt="" class="img_mural nahida"><!--trocar nomes depois Alan-->
+                        <img src="./src/componentes/Home/img/people/1.png" alt="" class="img_mural furina"><!--trocar nomes depois Alan-->
+                        <img src="./src/componentes/Home/img/people/2.png" alt="" class="img_mural nahida"><!--trocar nomes depois Alan-->
                     </div>
                     <div class="parte_dois">
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/people/3.png" alt="" class="img_mural raiden"><!--trocar nomes depois Alan-->
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/people/4.png" alt="" class="img_mural venti"><!--trocar nomes depois Alan-->
+                        <img src="./src/componentes/Home/img/people/3.png" alt="" class="img_mural raiden"><!--trocar nomes depois Alan-->
+                        <img src="./src/componentes/Home/img/people/4.png" alt="" class="img_mural venti"><!--trocar nomes depois Alan-->
                     </div>
                 </div>
             </article>
@@ -471,16 +471,16 @@ main.innerHTML = `<section class="tela_desktop">
                     <input type="radio" name="radio-btn" id="radio4">
                 
                     <div class="slide first">
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/2.png" alt="" class="img_1 img">
+                        <img src="./src/componentes/Home/img/slides/2.png" alt="" class="img_1 img">
                     </div>
                     <div class="slide second">
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/b647cb22-1bde-414e-b48f-4092c1d46c25.jpg" alt="" class="img_2 img">
+                        <img src="./src/componentes/Home/img/slides/b647cb22-1bde-414e-b48f-4092c1d46c25.jpg" alt="" class="img_2 img">
                     </div>
                     <div class="slide">
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/TANIABULHOES_QUIOSQUE_camila-barrionovo-fotografia-ribeirao-preto-2.jpg" alt="" class="img_3 img">
+                        <img src="./src/componentes/Home/img/slides/TANIABULHOES_QUIOSQUE_camila-barrionovo-fotografia-ribeirao-preto-2.jpg" alt="" class="img_3 img">
                     </div>
                     <div class="slide">
-                        <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/Home/img/slides/VO_EXPO_JK_LauraCampanella_0012.jpeg" alt="" class="img_4 img">
+                        <img src="./src/componentes/Home/img/slides/VO_EXPO_JK_LauraCampanella_0012.jpeg" alt="" class="img_4 img">
                     </div>
                     <div class="navigation-auto">
                         <div class="auto-btn1"></div>
