@@ -26,7 +26,7 @@ function addContentSejaCatador(){
             </form>
           </article>
           <article class="img_section_SejaCatador">
-            <img src="https://the-gabriel-marques.github.io/TrabalhoInterdiciplinar-FATEC-/src/componentes/SejaCatador/img/sustentavel.png" alt="">
+            <img src="./src/componentes/SejaCatador/img/sustentavel.png" alt="">
           </article>
           </div>
         </section>
