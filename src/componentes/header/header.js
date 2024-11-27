@@ -17,7 +17,7 @@ export function Headerbuild(){
             </nav>
             <div class="empresa_nome_mobile">
                 <a href="/index.html">
-                    <img src="/src/img/header/titulo.png" alt="">
+                    <img src="./src/img/header/titulo.png" alt="">
                 </a>
             </div>
             <div class="icone" id="open">
@@ -32,7 +32,7 @@ export function Headerbuild(){
                     <ul>
                         <div class="empresa_nome">
                             <a href="/index.html">
-                                <img src="/src/img/header/titulo.png" alt="">
+                                <img src="./src/img/header/titulo.png" alt="">
                             </a>
                         </div>
                         <div class="lista_Conteudo">
