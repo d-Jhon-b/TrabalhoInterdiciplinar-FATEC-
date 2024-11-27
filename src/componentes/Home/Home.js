@@ -20,11 +20,3 @@ function nextImg(){
     }
     document.getElementById('radio'+countmobile).checked=true
 }
-
-document.getElementById("saibaMaisMateriais").addEventListener("click", function () {
-    window.location.href = "src/componentes/Materiais/materiais.html";
-});
-
-document.getElementById("saibaMaisProdutos").addEventListener("click", function () {
-    window.location.href = "src/componentes/produtos/produtos.html";
-});
